@@ -66,7 +66,6 @@ $recherches = $query->fetchAll(PDO::FETCH_ASSOC);
                 <th>Contrat</th>
                 <th>Mail</th>
                 <th>Commentaires</th>
-                <th>Voir</th>
                 <th>Modifier</th>
                 <th>Supprimer</th>
             </thead>
@@ -88,7 +87,6 @@ $recherches = $query->fetchAll(PDO::FETCH_ASSOC);
                     <td><?= $recherche['contrat'] ?></td>
                     <td><?= $recherche['mail'] ?></td>
                     <td><?= $recherche['commentaire'] ?></td>
-                    <td><a href="user.php?id=<?= $recherche['id'] ?>"><img src="images/edit.png" alt="Voir"></a></td>
                     <td><a href="modifier.php?id=<?= $recherche['id'] ?>"><img src="images/pen.png" alt="Modifier"></a></td>
                     <td><a href="suprimer.php?id=<?= $recherche['id'] ?>"><img src="images/trash.png" alt="Supprimer"></a></td>
                     
