@@ -38,8 +38,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="form">
         <h1>Connexion</h1>
+        <a href="index.php" class="back_btn"><img src="images/back.png"> Retour</a>
         <?php if (isset($error_message)) : ?>
             <p><?php echo $error_message; ?></p>
         <?php endif; ?>
@@ -50,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="password" name="password" id="password" required><br>
             <button class="Btn_add" type="submit">Se connecter</button>
         </form>
-        <a href="index.php" class="back_btn"><img src="images/back.png"> Retour</a>
+        
         <p>Vous n'avez pas de compte? </p>
             
         <a href="inscription.php" class="Btn_add"> <img src="images/plus.png"> Inscrivez-vous</a>

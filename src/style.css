@@ -63,7 +63,7 @@ img {
 
 /*Form CSS*/
 .form {
-    background-color: #f6f8f8;
+    background-color: #b6ecec;
     padding: 25px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 6px;
@@ -78,6 +78,8 @@ img {
     text-decoration: 0;
     display: flex;
     align-items: center;
+    border-radius: 6px;
+    
 }
 .back_btn img {
     height: 16px;
@@ -88,10 +90,7 @@ h2 {
     font-weight: 500;
     text-transform: uppercase;
 }
-.erreur_message {
-    color: red;
-    font-size: 12px;
-}
+
 label {
     margin-top: 5px;
     text-transform: uppercase;

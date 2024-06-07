@@ -80,7 +80,9 @@ if($_POST){
 <body>
     
 
-
+<div class="form">
+<h1>Inscription</h1>
+<a href="index.php" class="back_btn"><img src="images/back.png"> Retour</a>
 <form method="post" >
     <label for="first_name">Prénom:</label><br>
     <input type="text" id="first_name" name="first_name" required><br>
@@ -96,6 +98,6 @@ if($_POST){
 </form>
 
 
-
+</div>
 </body>
 </html>
