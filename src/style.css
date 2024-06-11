@@ -63,14 +63,14 @@ img {
 
 /*Form CSS*/
 .form {
-    background-color: #b6ecec;
+    background-color: #e0f3f3;
     padding: 25px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 6px;
 }
 .form form {
     display: flex;
-    width: 550px;
+    width: 750px;
     flex-direction: column;
 }
 .back_btn {
